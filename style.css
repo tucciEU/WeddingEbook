@@ -1,0 +1,132 @@
+body{
+  background-image: url(fundo.jpg);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+header{ /* escrita Wedding book */
+  text-align: center;
+  font-family: 'Style Script', cursive;
+  color: rgb(251, 120, 142);
+  font-size: 100px;
+  text-shadow: black 10px 10px 10px;
+  margin-top: 100px;
+}
+#fonth1{ /*escrita JHENNY E SERGIO */
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Style Script', cursive;
+  font-weight: bold;
+}
+video{
+  width: 650px;
+  margin:0 auto;
+  display: block;
+  padding: 50px;
+}
+p{
+  text-align: center;
+  font-family: 'Style Script', cursive;
+  font-size: 130px;
+  color: rgb(251, 120, 142);;
+  
+}
+.size{ /*classe para controlar tamanho da imagem do carrosel */
+  width: 35%;
+  margin: auto;
+  border-radius: 10px;
+}
+p{
+  text-shadow: black 10px 10px 10px;
+}
+.galeria{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: -30px;
+  display: inline;
+  
+
+}
+li{
+  display: inline;
+}
+.galeria img{
+  width: 15%;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.galeria img:hover{
+  opacity: 1;
+}
+.lbox{
+  visibility: hidden;
+  opacity: 0;
+}
+.lbox:target{
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(10, 10, 10, .7);
+  position: fixed;
+}
+.vis:target{
+  visibility: hidden;
+  opacity: 0;
+}
+.box_img{
+  width: 100%px;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+.btn1{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+#prev1{
+  left: 5%;
+  top: 45%;
+}
+#next1{
+  right: 5%;
+  top:45%;
+}
+#close1{
+  top: 0;
+  right: 2%;
+}
+.sizeLB{
+  width: 700px;
+  align-items: center;
+  text-align: center;
+}
+.imgP{
+ width: 68%;
+}
+.imgG{
+  width: 37%;
+}
+.retrato{
+  width: 46%;
+  margin-top: 1%;
+}
+.retrato1{
+  width: 55%;
+  margin-top: 1%;
+}
+.paisagem{
+  width: max-content;
+  margin-top: 1%;
+}
